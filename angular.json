@@ -67,6 +67,9 @@
         },
         "serve": {
           "builder": "@angular-devkit/build-angular:dev-server",
+          "options": {
+            "port": 4201  
+          },
           "configurations": {
             "production": {
               "buildTarget": "angularprojectOne:build:production"
@@ -102,5 +105,8 @@
         }
       }
     }
+  },
+  "cli": {
+    "analytics": "a9b8ffc6-848a-4c5f-a012-76bc723bea4a"
   }
 }
